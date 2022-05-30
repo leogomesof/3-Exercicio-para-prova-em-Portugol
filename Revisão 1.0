@@ -1,0 +1,19 @@
+Algoritmo "Exercício 10"
+Var
+a,b,c:inteiro
+r:inteiro //resultado
+d:inteiro //travar o enquanto
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+d<-1
+enquanto (d=1) faca
+escreval("Escreva os valores para A, B e C: ")
+leia(a,b,c)
+r<-a+b+c
+se (r>=100) entao
+escreval(r, " é maior que 100")
+ senao
+ escreval(r, " não é maior que 100")
+fimse
+fimenquanto
+Fimalgoritmo

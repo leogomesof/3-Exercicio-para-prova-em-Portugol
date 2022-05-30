@@ -1,0 +1,36 @@
+Algoritmo "Exercicio 3"
+Var
+a:inteiro
+b:inteiro
+c:inteiro
+maior:inteiro
+menor:inteiro
+meiuca:inteiro
+teste:inteiro
+Inicio
+Escreval("Digite um numero para A, B, e C respectivamente")
+leia(a,b,c)
+se (a>b) e (b>c) entao
+ menor<-c
+ meiuca<-b
+ maior<-a
+fimse
+se (a>c) e (c>b) entao
+ maior<-a
+ meiuca<-c
+ menor<-b
+fimse
+se (b>=a) e (a>c) entao
+ maior<-b
+ meiuca<-a
+ menor<-c
+fimse
+se (b>c) e (c>a) entao
+ maior<-b
+ meiuca<-c
+ menor<-a
+fimse
+Escreval(menor, " é o primeiro")
+Escreval(meiuca, " é o segundo")
+Escreval(maior, " é o terceiro")
+Fimalgoritmo

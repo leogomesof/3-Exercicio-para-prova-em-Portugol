@@ -1,0 +1,35 @@
+Algoritmo "Exercicio 4"
+Var
+a,b,c,d:real
+dpa:inteiro //divisivel por a
+dpb:inteiro //divisivel por b
+dpc:inteiro //divisivel por c
+dpd:inteiro //divisivel por d
+Inicio
+escreval("digite um valor para A, B, C e D respectivamente")
+leia(a,b,c,d)
+se (a mod 2 = 0) ou (a mod 3 = 0) entao
+ dpa<- 1
+fimse
+se (b mod 2 = 0) ou (b mod 3 = 0) entao
+ dpb<- 1
+fimse
+se (c mod 2 = 0) ou (c mod 3 = 0) entao
+ dpc<- 1
+fimse
+se (d mod 2 = 0) ou (d mod 3 = 0) entao
+ dpd<- 1
+fimse
+se (dpa=1) entao
+ escreval(a)
+fimse
+se(dpb=1) entao
+escreval(b)
+fimse
+se(dpc=1)entao
+escreval(c)
+fimse
+se (dpd=1) entao
+escreval(d)
+fimse
+fimalgoritmo

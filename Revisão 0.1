@@ -1,0 +1,36 @@
+Algoritmo "Revisão 1"
+Var
+a:inteiro //segurar a condição do enquanto
+N1:real
+N2:real
+N3:real
+N4:real
+rs:real //resultado da soma para enviar na media
+MD1:real
+MD2:real
+NE:real
+Inicio
+a<-0
+enquanto (a = 0) faca
+escreval("")
+escreval("Digite as quatro notas do aluno respectivamente:")
+leia(n1,n2,n3,n4)
+rs<-n1+n2+n3+n4
+md1<-rs/4
+se (md1>=7) entao
+ escreval("Aluno Aprovado")
+ escreval("Média de: ", md1, " pontos")
+  senao
+   escreval("Digite a nota de exame:")
+   leia(md2)
+   ne<-(md2+md1)/2
+   se (ne>=5) entao
+    escreval("Aluno Aprovado em Exame")
+    escreval("Média de: ", ne, " pontos")
+    senao
+     escreval("Aluno Reprovado em Exame")
+     escreval("Média de: ", ne, " pontos")
+   fimse
+fimse
+fimenquanto
+Fimalgoritmo

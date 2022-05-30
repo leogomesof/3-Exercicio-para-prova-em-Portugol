@@ -1,0 +1,38 @@
+Algoritmo "Revisão 2"
+Var
+n:inteiro
+a:real
+b:real
+c:real
+d:real // delta
+x1:real //resposta 1
+r1:real //recebe -b+raiz de delta
+x2:real //resposta 2
+r2:real //recebe -b-raiz de delta
+Inicio
+n <- 1
+enquanto (n > 0) faca
+escreval("")
+escreval("***Calculadora de Equação de Segundo grau***")
+escreval("digite um valor para A, B e C respectivamente:")
+leia(a,b,c) //resolvendo discriminante
+d<-((b*b)-4*a*c)
+se (d>=0) entao
+   r1<- -b+raizq(d)
+   x1<- r1/2
+   r2<- -b-raizq(d)
+   x2<- r2/2
+  senao
+ escreval("não existe raiz real")
+fimse
+se (d>=0) entao
+ escreval("Valor de Delta é:", d)
+ escreval("Resultado de x1 e x2, são iguais:", x1)
+ senao
+  se (d>=0) entao
+   escreval("Resultado para x1 é:", x1)
+   escreval("Resultao para x2 é:", x2)
+  fimse
+fimse
+fimenquanto
+fimalgoritmo
